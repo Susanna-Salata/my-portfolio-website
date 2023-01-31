@@ -20,6 +20,11 @@ h1{
     line-height: 60px;
 }
 
+h3{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
 p{
     font-weight: 400;
     font-size: 16px;
@@ -47,6 +52,10 @@ p{
     color: #000;
 }
 
+.active{
+    color: #FF6464;
+}
+
 .about-user{
     display: flex;
     justify-content: space-between;
@@ -70,4 +79,28 @@ p{
     font-size: 20px;
     padding: 12px 20px;
     margin-top: 35px;
+}
+
+/* BLOG PAGE */
+
+.post{
+    border-bottom: 2px solid #8695A4;
+    padding-bottom: 30px;
+}
+.post p{
+    margin-top: 15px;
+}
+
+.date{
+    font-size: 20px;
+    border-right: 2px solid #000;
+    padding-right: 25px;
+    line-height: 29px;
+}
+
+.topic{
+    font-size: 20px;
+    color: #8695A4;
+    padding-left: 25px;
+    line-height: 29px;
 }
