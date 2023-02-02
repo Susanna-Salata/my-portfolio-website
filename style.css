@@ -212,6 +212,10 @@ p{
     margin-top: 0;
 }
 
+.works-page h3{
+    font-size: 24px;
+}
+
 .badge{
     background-color: #142850;
     color: #fff;
