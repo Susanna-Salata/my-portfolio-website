@@ -60,7 +60,7 @@ p{
 }
 
 .active{
-    color: #FF6464;
+    color: #FF6464 !important;
 }
 
 .about-user{
@@ -248,4 +248,83 @@ p{
         margin-bottom: 10px;
     }
 
+}
+
+/* ARTICLE-PAGE */
+
+.article-page .container{
+    max-width: 680px;
+}
+
+.article-page h1{
+    font-size: 34px;
+    min-width: 500px;
+}
+
+.article-badge{
+    background-color: #142850;
+    color: #fff;
+    font-style: 18px;
+    font-weight: bold;
+    border-radius: 16px;
+    padding: 0px 10px;
+    margin-right: 17px;
+    margin-right: 25px;
+    display: inline-block;
+}
+
+.article-topic{
+    font-style: 20px;
+    margin-bottom: 27px;
+}
+
+.article-page h2{
+    font-size: 30px;
+    font-weight: 700px;
+}
+
+.article-page h3{
+    font-size: 24px;
+    font-weight: 700px;
+}
+
+.article-page img{
+    width: 680px;
+    height: 460px;
+}
+
+@media (max-width: 768px){
+
+    .article-page h1{
+        font-size: 30px;
     }
+    
+    .article-topic{
+        font-style: 18px;
+    }
+    
+    .article-page h2{
+        font-size: 26px;
+        text-align: left;
+    }
+    
+    .article-page h3{
+        font-size: 20px;
+    }
+
+    .article-page img{
+        border-radius: 6px;
+        width: 250px;
+        height: 180;
+        margin-right: 18px;
+        margin-left: 18px;
+        margin-top: 30px;
+    }
+
+    .article-page img{
+        height: 180px;
+        width: 220px;
+
+    }
+}
+

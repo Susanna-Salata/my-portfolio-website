@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Heebo:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <button class="burger"> </button>
+            <nav>
+                <a href="#" class="active">Works</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+
+    </header>
+    
+    <section class="article-page">
+        <div class="container">
+            <h1>Pocket Memory</h1>
+            <span class="article-badge">2022</span>
+            <span class="topic">Web application</span>
+            <p>
+                In App you can find fresh news, sport news, currency and actual whether. <br>
+                In home page shows litle presentation, four columns whith different data and short team description. <br>
+                You can create, edit and delete contacts on contact page. Create notes on notes page and download or upload files on Dropbox server.
+            </p>
+            <img src="../images/pocket_memory.jpg" alt="image">
+            <h3>v.0.0.1</h3>
+            <p>
+                In App you can find fresh news, sport news, currency and actual wwhether
+                In home page shows litle presentation, four columns whith different data and short team description
+                You can see bigger presentation if you need, just press the button Presentation
+                If you press "Signup" you open login page. Here you have two form, for new user - registration form and singin form for a active user.<br>
+                After sing in you come back on home page, but now you can use more functions in sidebar on top of page.<br>
+                You can create, edit and delete contacts on contact page. Create notes on notes page and download or upload files on Dropbox server. <br>
+            </p>
+            <h3>v. 0.0.2</h3>
+            <ul>
+                <li>After login buttont Login do not show in main page</li>
+                <li>Correct name buttons "Add contact" instead "Add user" and "Edit contact" instead "Add user"</li>
+                <li>After creating new user return in correct home page</li>
+                <li>in app.py Commented dashboard async func if we will not need in delete it next time</li>
+                <li>After and token expires start refresh token function</li>
+                <li>After creating new note, show all notes (befor show emty page)</li>
+                <li>Add Logout function, and update templates</li>
+            </ul>
+            <h3>v. 0.0.2a</h3>
+            <ul>
+                <li>Incorrect edit contact form. (You can edit just first contact on page!) done</li>
+                <li> Now in files correct app get file links from dropbox.com</li>
+            </ul>
+            <h3>v. 0.0.2b</h3>
+            <ul>
+                <li>Add solution for separete common files and user files</li>
+            </ul>
+            <h3>v. 0.0.2c</h3>
+            <ul>
+                <li>Now you can encode dropbox token and use dropbox cloud in common app</li>
+            </ul>
+            <h3>bugs to solv</h3>
+            <ul>
+                <li>Dont work Notes tags - now this function is deactivate</li>
+            </ul>
+            <h3>
+                The application written in:
+            </h3>
+            <ul>
+                <li>backend - FastAPI</li> 
+                <li>frontend - HTML, CSS, JS</li>
+                <li></li>
+            </ul>
+            <h3>Command to start: </h3>
+        </div>
+    </section>
+
+    <div style="height: 500px;"> </div>
+
+</body>
+</html>

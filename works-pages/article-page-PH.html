@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Heebo:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <button class="burger"> </button>
+            <nav>
+                <a href="#" class="active">Works</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+
+    </header>
+    
+    <section class="article-page">
+        <div class="container">
+            <h1>Personal Helper</h1>
+            <span class="article-badge">2022</span>
+            <span class="topic">Console bot</span>
+            <p>
+                This bot works in three modes: Contacts book that stores names, addresses, phones, emails and dates of birth and implements some useful search commands. <br>
+                Just simple text notes with tags and search-ability. Folder cleaner that sorts files out by their types. <br>
+            </p>
+            <img src="../images/personal_helper.jpg" alt="image">
+            <h3>This bot works in three modes:</h3>
+            <ol>
+                <li>Contacts book that stores names, addresses, phones, emails and dates of birth and implements some useful search commands</li>
+                <li>Notes. Just simple text notes with tags and search-ability</li>
+                <li>Folder cleaner that sorts files out by their types</li>
+            </ol>
+
+            <h3>In the CONTACTS BOOK mode, user of the 'Personal Helper' can do the following</h3>
+            <ul>
+                <li>Add, change and delete such contacts data as name, address, phone numbers, email and date of birth</li>
+                <li>Search contacts by their data</li>
+                <li>View contacts whose birthday is within specified period starting from today</li>
+                <li>View the list of all contacts in the book</li>
+            </ul>
+            <h3>All the phones, emails and dates are being checked if they match strict rules:</h3>
+            <ul>
+                <li>(0XX)XXX-XX-XX for phone numbers</li>
+                <li>aaa@bbb.cc for emails</li>
+                <li>DD.MM.YYYY for dates</li>
+                The contacts book is being stored in the file contacts.bin in the same folder as the script file
+            </ul>
+            <h3>In the NOTES mode, user of the 'Personal Helper' can do the following</h3>
+            <ul>
+                There will be automatically created folders for images, audio files, videos, documents and archives into the specified folder. <br>
+                Files of corresponding types will be moved into these folders. Current folders structure will be retained.<br> 
+                All Cyrillic symbols in the names of the files and folders will be trnsliterated into Latin ones. Files of unknown types are being retained untouched.<br>
+            </ul>
+            <p>
+                To use this bot, you need simply download setup package with all necessary files from github. Package can be installed into system with a console command "python setup.py install". After that, you can run the bot using 'personal-helper' command in any place in the command line <br>
+                'Personal Helper' communicates with a user through console commands. You can view them using command 'help' inside the bot or in the 'help.txt' file that is included into the package. <br>
+                IMPORTANT! Delimiter symbol inside of all the commands is SPACE. <br>
+                The bot uses Prompt Toolkit package that propose a list of commands by the first letters typed in the command line. <br>
+            </p>
+            <h3>INSTALLATION:</h3>
+            <p>
+                'Personal Helper' is being distributed in the form of Python package. <br> 
+                You can install it using one of the following two commands in the directory with setup.py file:
+            </p>
+            <lu>
+                <li>pip install .</li>
+                <li>python setup.py install</li>
+            </lu>
+        </div>
+    </section>
+
+    <div style="height: 500px;"> </div>
+
+</body>
+</html>
