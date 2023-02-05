@@ -43,9 +43,14 @@ p{
     margin: 0;
 }
 
+
 /* COMMON STYLES END */
 
 /* HEAD STYLES START */
+.header{
+    padding-bottom: 70px;
+}
+
 .menu{
     display: flex;
     justify-content: flex-end;
@@ -142,6 +147,57 @@ p{
         line-height: 24px;
     }
 }
+
+/* HEAD STYLES END */
+
+/* SECTION POSTS */
+.section-posts{
+    background: #EDF7FA;
+    padding-bottom: 15px;
+}
+
+.block-posts{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+h4{
+    margin: 0;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.block-posts .post{
+    max-width: 420px;
+    border-radius: 4px;
+    background: #fff;
+    padding: 25px;
+    margin-bottom: 15px;
+}
+
+.block-posts .date{
+    font-size: 16px;
+
+}
+
+@media (max-width: 768px){
+
+    h4{
+        font-style: 20px;
+    }
+    
+    .block-posts .post{
+        font-style: 16px;
+    }
+    
+    .block-posts .date{
+        font-style: 16px;
+    }
+}
+
+/* SECTION POSTS END*/
 
 /* BLOG PAGE */
 
