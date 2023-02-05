@@ -328,3 +328,44 @@ p{
     }
 }
 
+footer{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.footer p{
+    font-size: 14px;
+}
+
+.socials{
+    /* border: 2px solid #000; */
+    width: 180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.socials a{
+    width: 36px;
+    height: 36px;
+    margin-bottom: 26px;
+    /* border: 1px solid green; */
+}
+
+.icon{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.git{
+    background-image: url("images/icons/github-fill.png");
+}
+
+.slack{
+    background-image: url("images/icons/slack-fill.png");
+}
+
+.in{
+    background-image: url("images/icons/linkedin-box-fill.png");
+}
+
